@@ -1,3 +1,3 @@
 # HomeBody
-an Android application where low-income individuals in the Ewing/Trenton area can locate gender inclusive housing nearby. 
+An Android application where low-income individuals in the Ewing/Trenton area can locate gender inclusive housing nearby. 
 This mobile app would focus on low-income housing for TCNJ students or individuals around the Ewing/Trenton area who are no longer supported by others. The app would be a stream-lined way for people looking for affordable housing in their area of interest, all within a price range that they can afford. In addition, I would like this app to emphasize an aspect that would allow those transitioning or non-binary individuals who seek gender-inclusive housing. On the app, they can find areas in which there are LGBTQ+ communities or places/houses they can rent without feeling uncomfortable with their identities.
