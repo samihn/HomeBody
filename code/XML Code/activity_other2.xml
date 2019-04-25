@@ -1,19 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".otherActivity2">
-
-    <TextView
-        android:id="@+id/otherTextView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hi from Other Activity 222222"
-        android:textColor="@color/colorAccent"
-        android:textSize="14sp"
-        tools:ignore="MissingConstraints" />
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="9dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/TrentonHouses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Trenton_houses"
+                android:textColor="@color/colorAccent"
+                android:textSize="50sp"
+                app:layout_constraintBottom_toTopOf="@+id/brandonAve"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/CornwallAveImg"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TrentonHouses"
+                app:srcCompat="@drawable/cornwallavefinal"
+                android:contentDescription="@string/todo" />
+
+
+
+            <Button
+                android:id="@+id/button_more_info_CornwallAve"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="400dp"
+                android:layout_marginLeft="400dp"
+                android:gravity="center"
+                android:text="@string/More_info_BrandonAve"
+                app:layout_constraintStart_toStartOf="@+id/CornwallAveImg"
+                app:layout_constraintTop_toBottomOf="@+id/CornwallAveImg" />
+
+            <Button
+                android:id="@+id/contact_CornwallAve"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="670dp"
+                android:layout_marginLeft="670dp"
+                android:layout_marginTop="-55dp"
+                android:gravity="center"
+                android:text="@string/contact_info_BrandonAve"
+                app:layout_constraintStart_toStartOf="@+id/CornwallAveImg"
+                app:layout_constraintTop_toBottomOf="@+id/CornwallAveImg" />
+
+
+
+            <TextView
+                android:id="@+id/textfile_2"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:text="Text"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/contact_CornwallAve"
+                tools:ignore="HardcodedText,MissingConstraints"
+                tools:layout_editor_absoluteX="30dp" />
+
+            <ImageView
+                android:id="@+id/renfrewAveImg"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TrentonHouses"
+                app:srcCompat="@drawable/renfrewaveoriginal"
+                android:contentDescription="@string/todo" />
+
+
+
+            <Button
+                android:id="@+id/button_more_info_RenfrewAve"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="400dp"
+                android:layout_marginLeft="400dp"
+                android:gravity="center"
+                android:text="@string/More_info_BrandonAve"
+                app:layout_constraintStart_toStartOf="@+id/renfrewAveImg"
+                app:layout_constraintTop_toBottomOf="@+id/renfrewAveImg" />
+
+            <Button
+                android:id="@+id/contact_RenfrewAve"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="670dp"
+                android:layout_marginLeft="670dp"
+                android:layout_marginTop="-55dp"
+                android:gravity="center"
+                android:text="@string/contact_info_BrandonAve"
+                app:layout_constraintStart_toStartOf="@+id/renfrewAveImg"
+                app:layout_constraintTop_toBottomOf="@+id/renfrewAveImg" />
+
+
+
+            <TextView
+                android:id="@+id/textfile_3"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:text="Text"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/contact_RenfrewAve"
+                tools:ignore="HardcodedText,MissingConstraints"
+                tools:layout_editor_absoluteX="30dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

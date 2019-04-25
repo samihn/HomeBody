@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">HomeBody</string>
     <string name="action_settings">Settings</string>
+    <string name="Brandon_Ave_Address"> 24 Brandon Ave,\n
+Ewing, NJ 08618 \n
+5 beds . 2 baths . 2,110 sqft \n
+Safe community for LGBT: YES</string>
+    <string name="More_info_BrandonAve">Click Here for More Information</string>
+    <string name="contact_info_BrandonAve">Click Here to Contact the Owner</string>
+    <string name="ewing_houses">Ewing Houses:</string>
+    <string name="todo">TODO</string>
+    <string name="Trenton_houses">Trenton Houses:</string>
 </resources>
